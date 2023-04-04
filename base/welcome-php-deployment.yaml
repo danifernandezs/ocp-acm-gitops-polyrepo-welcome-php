@@ -21,5 +21,6 @@ spec:
     spec:
       containers:
       - image: quay.io/redhatworkshops/welcome-php:latest
+      # - image: quay.io/danielfernandez/kustomize-demo-apps:welcome-php-latest
         name: welcome-php
         resources: {}
